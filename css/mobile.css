@@ -1,6 +1,6 @@
-body { color: #323232; background-color: #F4F4F4;  }
+body { color: #323232; background-color: #F4F4F4; margin: 0em;  }
 
-header { color: #F4F4F4; background-color: #323232; }
+header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 #content { padding: 0 1em 0 1em; }
 
 #name { font-size: 3em; }
@@ -9,9 +9,9 @@ header { color: #F4F4F4; background-color: #323232; }
 .section { padding: 0 0 1em 0; }
 .section_title { font-size: 1.75em; margin-bottom: -0.25em; }
 .subsection {}
-.subsection_title { font-size: 1.5em; float: left; }
-.subsection_dates { font-style: italic; float: right; }
-.subsection_content { font-size: 1.15em; padding: 0 0 0 1em; }
+.subsection_title { font-size: 1.5em; float: left; clear: right; }
+.subsection_dates { font-style: italic; float: left; }
+.subsection_content { font-size: 1.15em; padding: 0 0 0 0.5em; }
 .subsection_item { font-size: 1.15em; padding: 0 0 0.5em 1em; }
 .subsection_item_title { font-weight: bold; }
 
