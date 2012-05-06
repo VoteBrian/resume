@@ -1,4 +1,4 @@
-body { color: #323232; background-color: #F4F4F4; margin: 0em;  }
+body { color: #323232; background-color: #F4F4F4; margin: 0em; font: Roboto, sans-serif; font-weight:normal; }
 
 header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 #content { padding: 0 1em 0 1em; }
