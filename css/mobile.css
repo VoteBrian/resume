@@ -11,8 +11,8 @@ header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 .subsection {}
 .subsection_title { font-size: 1.5em; float: left; clear: right; }
 .subsection_dates { font-style: italic; float: left; }
-.subsection_content { font-size: 1.15em; padding: 0 0 0 0.5em; }
-.subsection_item { font-size: 1.15em; padding: 0 0 0.5em 1em; }
+.subsection_content { font-size: 1.15em; padding: 0 0 0 0em; }
+.subsection_item { font-size: 1.15em; padding: 0 0 0.5em 0em; }
 .subsection_item_title { font-weight: bold; }
 
 .clear { clear: both; }
