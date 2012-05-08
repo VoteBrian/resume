@@ -1,9 +1,9 @@
 html { font-size: 100%; overflow-y: scroll; }
-body { color: #323232; background-color: #F4F4F4; margin: 0em; font-family: Roboto, sans-serif; font-weight: 300; }
+body { color: #323232; background-color: #F4F4F4; margin: 0em; font-family: Roboto, sans-serif; font-weight: 400; }
 
 canvas { display: none; }
 
-header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
+header { color: #F4F4F4; background-color: #323232; padding: 0.5em; font-weight: 300; }
 #content { padding: 0 1em 0 1em; }
 
 #name { font-size: 3em; }
@@ -16,7 +16,7 @@ header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 .subsection_dates { font-style: italic; }
 .subsection_content { font-size: 1.15em; padding: 0 0 0 0em; }
 .subsection_item { font-size: 1.15em; padding: 0 0 0.5em 0em; }
-.subsection_item_title { font-weight: normal; }
+.subsection_item_title { font-weight: bold; }
 
 .clear { clear: both; }
 
