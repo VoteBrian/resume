@@ -1,7 +1,7 @@
 html { font-size: 100%; overflow-y: scroll; }
 body { color: #323232; background-color: #F4F4F4; margin: 0em; font-family: Roboto, sans-serif; font-weight: 300; }
 
-canvas { visibility: hidden; }
+canvas { display: none; }
 
 header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 #content { padding: 0 1em 0 1em; }
