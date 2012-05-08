@@ -1,4 +1,7 @@
-body { color: #323232; background-color: #F4F4F4; margin: 0em; font: Roboto, sans-serif; font-weight:normal; }
+html { font-size: 100%; overflow-y: scroll; }
+body { color: #323232; background-color: #F4F4F4; margin: 0em; font-family: Roboto, sans-serif; font-weight: 300; }
+
+canvas { visibility: hidden; }
 
 header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 #content { padding: 0 1em 0 1em; }
@@ -9,11 +12,11 @@ header { color: #F4F4F4; background-color: #323232; padding: 0.5em; }
 .section { padding: 0 0 1em 0; }
 .section_title { font-size: 1.75em; margin-bottom: -0.25em; }
 .subsection {}
-.subsection_title { font-size: 1.5em; float: left; clear: right; }
-.subsection_dates { font-style: italic; float: left; }
+.subsection_title { font-size: 1.5em; }
+.subsection_dates { font-style: italic; }
 .subsection_content { font-size: 1.15em; padding: 0 0 0 0em; }
 .subsection_item { font-size: 1.15em; padding: 0 0 0.5em 0em; }
-.subsection_item_title { font-weight: bold; }
+.subsection_item_title { font-weight: normal; }
 
 .clear { clear: both; }
 

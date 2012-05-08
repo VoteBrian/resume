@@ -14,6 +14,10 @@
     </head>
 
     <body>
+        <!-- Canvas background -->
+        <canvas id="bg" width="100%" height="100%"></canvas>
+
+        <!-- Start Content -->
         <header>
             <div id="name">Brian Flores</div>
             <div id="contact_info"><a href="mailto:bflores+hire@gmail.com">bflores+hire@gmail.com</a></div>
@@ -149,5 +153,23 @@
 
         <footer>
         </footer>
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+        <!-- Import my scripts -->
+        <script defer src="js/script.js"></script>
+
+        <!-- On ready -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                drawBG();
+            });
+
+            $(window).resize(function() {
+                drawBG();
+            });
+        </script>
     </body>
 </html>
